@@ -138,7 +138,7 @@ fun MovieRow(movie: Movie) {
                 Text(
                     text = "Actors: ${movie.actors}\nGenre: ${movie.genre}\n" +
                             "Year: ${movie.year}\nDirector: ${movie.director}\n" +
-                            "Rating: ${movie.rating}",
+                            "Rating: ${movie.rating}\n\nPlot: ${movie.plot}",
                     fontSize = 22.sp
                 )
             }
